@@ -96,16 +96,17 @@ public class BulletMovement : MonoBehaviour {
 
 		RaycastHit rch;
         //If the bullet hit something
-        if (Physics.Raycast (transform.position, rigidbody.velocity, out rch, rigidbody.velocity.magnitude*Time.fixedDeltaTime, 1<<2)){
+        if (Physics.Raycast (transform.position, rigidbody.velocity, out rch, rigidbody.velocity.magnitude*Time.fixedDeltaTime, ~1<<2)){
             PlayerController pc = rch.transform.GetComponent<PlayerController>();
             //If the bullet hit the player
             if(pc != null){
                 pc.TakeDamage();
             }
+            Debug.Log(rch.transform.gameObject.layer);
             killBullet();
         }
 		
-		totalDist += speed * Time.fixedDeltaTime;
+		totalDist += rigidbody.velocity.magnitude * Time.fixedDeltaTime;
 		if(totalDist > 500){
 			killBullet();
 		}
@@ -124,6 +125,7 @@ public class BulletMovement : MonoBehaviour {
             {
                 pc.TakeDamage();
             }
+            Debug.Log(other.gameObject.layer);
             killBullet();
         }
 	}
