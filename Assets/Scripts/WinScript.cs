@@ -4,6 +4,7 @@ using System.Collections;
 public class WinScript : MonoBehaviour {
 
     public GameObject fireworks;
+	
 	// Use this for initialization
 	void Start () {
 	
