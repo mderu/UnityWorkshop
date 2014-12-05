@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: afde61812fcee8d40bfe89adcf114c08
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: doubleBarricade
+    100004: DoubleBarricade1
+    100006: DoubleBarricade2
+    100008: handel
+    100010: handel 1
+    100012: handel1
+    100014: handel1 1
+    100016: handel2
+    100018: handel2 1
+    100020: higherBar
+    100022: higherBar 1
+    100024: higherBar 2
+    100026: higherBar 3
+    100028: leftLight
+    100030: leftSupport
+    100032: leftSupport 1
+    100034: leftSupport 2
+    100036: leftSupport 3
+    100038: light
+    100040: light 1
+    100042: light1
+    100044: light2
+    100046: light3
+    100048: light4
+    100050: light5
+    100052: lights
+    100054: lowerBar
+    100056: lowerBar 1
+    100058: lowerBar 2
+    100060: lowerBar 3
+    100062: middleLight
+    100064: rightLight
+    100066: rightSupport
+    100068: rightSupport 1
+    100070: rightSupport 2
+    100072: rightSupport 3
+    100074: singleBarricade
+    100076: singleBarricadeNoLights
+    400000: //RootNode
+    400002: doubleBarricade
+    400004: DoubleBarricade1
+    400006: DoubleBarricade2
+    400008: handel
+    400010: handel 1
+    400012: handel1
+    400014: handel1 1
+    400016: handel2
+    400018: handel2 1
+    400020: higherBar
+    400022: higherBar 1
+    400024: higherBar 2
+    400026: higherBar 3
+    400028: leftLight
+    400030: leftSupport
+    400032: leftSupport 1
+    400034: leftSupport 2
+    400036: leftSupport 3
+    400038: light
+    400040: light 1
+    400042: light1
+    400044: light2
+    400046: light3
+    400048: light4
+    400050: light5
+    400052: lights
+    400054: lowerBar
+    400056: lowerBar 1
+    400058: lowerBar 2
+    400060: lowerBar 3
+    400062: middleLight
+    400064: rightLight
+    400066: rightSupport
+    400068: rightSupport 1
+    400070: rightSupport 2
+    400072: rightSupport 3
+    400074: singleBarricade
+    400076: singleBarricadeNoLights
+    2300000: handel
+    2300002: handel 1
+    2300004: handel1
+    2300006: handel1 1
+    2300008: handel2
+    2300010: handel2 1
+    2300012: higherBar
+    2300014: higherBar 1
+    2300016: higherBar 2
+    2300018: higherBar 3
+    2300020: leftSupport
+    2300022: leftSupport 1
+    2300024: leftSupport 2
+    2300026: leftSupport 3
+    2300028: light 1
+    2300030: light1
+    2300032: light2
+    2300034: light3
+    2300036: light4
+    2300038: light5
+    2300040: lowerBar
+    2300042: lowerBar 1
+    2300044: lowerBar 2
+    2300046: lowerBar 3
+    2300048: rightSupport
+    2300050: rightSupport 1
+    2300052: rightSupport 2
+    2300054: rightSupport 3
+    3300000: handel
+    3300002: handel 1
+    3300004: handel1
+    3300006: handel1 1
+    3300008: handel2
+    3300010: handel2 1
+    3300012: higherBar
+    3300014: higherBar 1
+    3300016: higherBar 2
+    3300018: higherBar 3
+    3300020: leftSupport
+    3300022: leftSupport 1
+    3300024: leftSupport 2
+    3300026: leftSupport 3
+    3300028: light 1
+    3300030: light1
+    3300032: light2
+    3300034: light3
+    3300036: light4
+    3300038: light5
+    3300040: lowerBar
+    3300042: lowerBar 1
+    3300044: lowerBar 2
+    3300046: lowerBar 3
+    3300048: rightSupport
+    3300050: rightSupport 1
+    3300052: rightSupport 2
+    3300054: rightSupport 3
+    4300000: lowerBar
+    4300002: rightSupport
+    4300004: leftSupport
+    4300006: higherBar
+    4300008: light4
+    4300010: handel
+    4300012: light3
+    4300014: handel2
+    4300016: light5
+    4300018: handel1
+    4300020: lowerBar
+    4300022: rightSupport
+    4300024: leftSupport
+    4300026: higherBar
+    4300028: lowerBar
+    4300030: rightSupport
+    4300032: leftSupport
+    4300034: higherBar
+    4300036: light
+    4300038: handel
+    4300040: light2
+    4300042: handel2
+    4300044: light1
+    4300046: handel1
+    4300048: lowerBar
+    4300050: rightSupport
+    4300052: leftSupport
+    4300054: higherBar
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

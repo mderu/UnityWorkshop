@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: bfa5cd4000adbda47ab7e122102787eb
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bluex2
+    100002: Char_x_1
+    100004: Char_x_1 1
+    100006: Char_x_2
+    100008: Char_x_2 1
+    100010: group1
+    100012: group3
+    100014: left
+    100016: pCube1
+    100018: pCube4
+    100020: pCube5
+    100022: pCube6
+    100024: pCylinder1
+    100026: pCylinder2
+    100028: right
+    100030: Shield
+    100032: SlowDown
+    100034: text
+    100036: text 1
+    100038: Text_xx_1
+    100040: Text_xx_1 1
+    100042: timer
+    100044: TractorBeam
+    100046: tractorbeam
+    100048: Trim_Char_x_1_1
+    100050: Trim_Char_x_1_1 1
+    100052: Trim_Char_x_2_1
+    100054: Trim_Char_x_2_1 1
+    100056: Trim_Text_xx_1_1
+    100058: Trim_Text_xx_1_1 1
+    100060: whitex2
+    100062: //RootNode
+    400000: bluex2
+    400002: Char_x_1
+    400004: Char_x_1 1
+    400006: Char_x_2
+    400008: Char_x_2 1
+    400010: group1
+    400012: group3
+    400014: left
+    400016: pCube1
+    400018: pCube4
+    400020: pCube5
+    400022: pCube6
+    400024: pCylinder1
+    400026: pCylinder2
+    400028: right
+    400030: Shield
+    400032: SlowDown
+    400034: text
+    400036: text 1
+    400038: Text_xx_1
+    400040: Text_xx_1 1
+    400042: timer
+    400044: TractorBeam
+    400046: tractorbeam
+    400048: Trim_Char_x_1_1
+    400050: Trim_Char_x_1_1 1
+    400052: Trim_Char_x_2_1
+    400054: Trim_Char_x_2_1 1
+    400056: Trim_Text_xx_1_1
+    400058: Trim_Text_xx_1_1 1
+    400060: whitex2
+    400062: //RootNode
+    2300000: bluex2
+    2300002: left
+    2300004: pCube1
+    2300006: pCube4
+    2300008: pCube5
+    2300010: pCube6
+    2300012: pCylinder1
+    2300014: pCylinder2
+    2300016: right
+    2300018: Shield
+    2300020: SlowDown
+    2300022: timer
+    2300024: TractorBeam
+    2300026: Trim_Char_x_1_1
+    2300028: Trim_Char_x_1_1 1
+    2300030: Trim_Char_x_2_1
+    2300032: Trim_Char_x_2_1 1
+    2300034: whitex2
+    3300000: bluex2
+    3300002: left
+    3300004: pCube1
+    3300006: pCube4
+    3300008: pCube5
+    3300010: pCube6
+    3300012: pCylinder1
+    3300014: pCylinder2
+    3300016: right
+    3300018: Shield
+    3300020: SlowDown
+    3300022: timer
+    3300024: TractorBeam
+    3300026: Trim_Char_x_1_1
+    3300028: Trim_Char_x_1_1 1
+    3300030: Trim_Char_x_2_1
+    3300032: Trim_Char_x_2_1 1
+    3300034: whitex2
+    4300000: whitex2
+    4300002: Trim_Char_x_1_1
+    4300004: Trim_Char_x_2_1
+    4300006: bluex2
+    4300008: Trim_Char_x_1_1
+    4300010: Trim_Char_x_2_1
+    4300012: timer
+    4300014: pCylinder1
+    4300016: pCube1
+    4300018: TractorBeam
+    4300020: left
+    4300022: right
+    4300024: Shield
+    4300026: pCylinder2
+    4300028: SlowDown
+    4300030: pCube6
+    4300032: pCube5
+    4300034: pCube4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
