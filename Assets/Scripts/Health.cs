@@ -65,7 +65,8 @@ public class Health : MonoBehaviour {
 		}
 	}
 
-	public GameObject DeathFX = null; // Object to be instantiated on death;
+	[Tooltip("Object to be instantiated on death.")]
+	public GameObject DeathFX = null; 
 
 	public virtual void OnDeath( ) {
 		if( DeathFX != null ) { Instantiate( DeathFX, transform.position, transform.rotation ); }

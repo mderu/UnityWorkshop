@@ -15,14 +15,21 @@ public class Collectable : MonoBehaviour
 {
 	public enum CollectType
 	{
-		POSTIVE,
+		POSITIVE,
 		NEGATIVE
 	} 
 
-	public float PointValue = 10.0f; 		// How much is this collectable worth?
-	public CollectType Type;				// Is this collectable positive (adds points) or negative (subtracts points)?
-	public bool DestroyOnCollect = true; 	// Destroy this collectable on collection?
-	public GameObject collectionFX = null; 	// object to be instantianted after collection.
+	[Tooltip("How much is this collectable worth?")]
+	public float PointValue = 10.0f; 		// 
+
+	[Tooltip("Is this collectable positive (adds points) or negative (subtracts points)?")]
+	public CollectType Type;				// 
+
+	[Tooltip("Destroy this collectable on collection?")]
+	public bool DestroyOnCollect = true; 	// 
+
+	[Tooltip("object to be instantianted after collection.")]
+	public GameObject collectionFX = null; 	// 
 
 	void Awake( )
 	{
@@ -39,7 +46,7 @@ public class Collectable : MonoBehaviour
 	public void OnCollect( )
 	{
 		switch ( Type ) {
-			case CollectType.POSTIVE:
+			case CollectType.POSITIVE:
 				ScoreManager.Instance.AddPoints( PointValue );
 				break;
 			case CollectType.NEGATIVE:

@@ -9,6 +9,7 @@ using UnityEngine;
 using System.Collections;
 
 [DisallowMultipleComponent]
+[RequireComponent(typeof(UILabel))]
 public class ScoreManager : MonoBehaviour {
 
 	// singleton for ScoreManager -- there can only be one!
@@ -32,8 +33,11 @@ public class ScoreManager : MonoBehaviour {
 				Destroy( this.gameObject );
 			}
 		}
-	}
 
+		init_ui();
+	}
+//--------------------------------------------------------------------------------
+#region SCORE
 	private float points;
 	public float Points {
 		get { return points; }
@@ -63,8 +67,25 @@ public class ScoreManager : MonoBehaviour {
 			Debug.LogWarning( "Attempting to subtract negative point value (this would cause addition)." );
 		}
 	}
+#endregion
+//--------------------------------------------------------------------------------
+#region UI	
+	private const string SCORE_TEXT = "SCORE: ";
+	private UILabel label;
 
+	void init_ui() {
+		label = gameObject.GetComponent<UILabel>();
+	}
+
+	void Update() {
+		if( label != null ) { label.Text = SCORE_TEXT + points.ToString(); }
+	}
+
+#endregion
+//--------------------------------------------------------------------------------
+#region FX
 	// disable all FXs
+	[Tooltip("Disable all effects?")]
 	public bool FXDisabled;
 
 	private bool addFxRunning; // Hack to prevent more than one effect to overlap
@@ -89,6 +110,7 @@ public class ScoreManager : MonoBehaviour {
 
 		subFxRunning = false;
 	}
+#endregion
 }
 
 

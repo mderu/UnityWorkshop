@@ -38,8 +38,8 @@ public class TimeManager : MonoBehaviour {
 		Init();
 	}
 
-	public bool TimerDisabled = false;					// Disable Countdown in the inspector without disabling the gameObjext
-	public bool FXDisabled = false;
+	[Tooltip("Disable Countdown in the inspector without disabling the gameObject.")]
+	public bool TimerDisabled = false;
 
 	private bool isRunning;	
 	private float timeLeft;
@@ -77,21 +77,18 @@ public class TimeManager : MonoBehaviour {
 		isRunning = false;
 		if( !FXDisabled ) { StartCoroutine ( "timerEndFX" ); }
 	}
-
-	private IEnumerator timerBeginFX () {				// any FX that would be played on timer Begin()
-		// do timed effects on timerStart
-		yield return new WaitForSeconds(0.1f);
-	}
-
-	private IEnumerator timerEndFX () {					// any FX that would be played on timer End()
-
-		// do timed effects on timerEnd
-		yield return new WaitForSeconds(0.1f);
-	}
+	
+	private const string TIME_TEXT = "TIME LEFT: ";
+	private UILabel label;
 		
 	void Init( ) {										// Initialized some private values during Awake()
 		isRunning = false;
 		timeLeft = 0.0f;
+		label = gameObject.GetComponent<UILabel>();
+	}
+
+	void Start() {
+		Begin( 30.0f );
 	}
 
 	void Update( ) {									// Updates per frame the countdown
@@ -102,5 +99,27 @@ public class TimeManager : MonoBehaviour {
 				if( timeLeft <= 0.0f ) { End(); }
 			}
 		}
+
+		if( label != null ) { 
+			label.Text = TIME_TEXT + timeLeft.ToString("F1"); 
+		}
 	}
+
+//--------------------------------------------------------------------------------
+#region FX	
+	[Tooltip("Disable all effects?")]
+	public bool FXDisabled = false;
+
+	private IEnumerator timerBeginFX () {				// any FX that would be played on timer Begin()
+		// do timed effects on timerStart
+		yield return new WaitForSeconds(0.1f);
+	}
+	
+	private IEnumerator timerEndFX () {					// any FX that would be played on timer End()
+		
+		// do timed effects on timerEnd
+		yield return new WaitForSeconds(0.1f);
+	}
+#endregion
+//--------------------------------------------------------------------------------
 }
